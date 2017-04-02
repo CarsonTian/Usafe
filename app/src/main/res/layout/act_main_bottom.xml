@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="66dp"
+    android:background="@android:color/white"
+    android:orientation="horizontal"
+    >
+
+    <LinearLayout
+        android:id="@+id/ll_safetymap"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="?android:attr/selectableItemBackground"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Safety Map"
+            android:textSize="30px"/>
+
+    </LinearLayout>
+    <View
+        android:layout_width="1px"
+        android:background="@color/colorLine"
+        android:layout_height="match_parent"/>
+    <LinearLayout
+        android:id="@+id/ll_safetybutton"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="?android:attr/selectableItemBackground"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Safety Button"
+            android:textSize="30px"/>
+
+    </LinearLayout>
+    <View
+        android:layout_width="1px"
+        android:background="@color/colorLine"
+        android:layout_height="match_parent"/>
+    <LinearLayout
+        android:id="@+id/ll_safetytrack"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="?android:attr/selectableItemBackground"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Safety Track"
+            android:textSize="30px"/>
+
+    </LinearLayout>
+    <View
+        android:layout_width="1px"
+        android:background="@color/colorLine"
+        android:layout_height="match_parent"/>
+    <LinearLayout
+        android:id="@+id/ll_safetymore"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="?android:attr/selectableItemBackground"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="More"
+            android:textSize="30px"/>
+
+    </LinearLayout>
+
+</LinearLayout>
